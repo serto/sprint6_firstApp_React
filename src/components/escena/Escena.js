@@ -1,4 +1,4 @@
 
 import React from 'react';
 
-export default _ => <p>El nostre heroi estava surant per l 'espai sideral quan a la llunyania va albirar una nau espacial</p>
+export default (props) => <p>{props.textEscena}</p>
