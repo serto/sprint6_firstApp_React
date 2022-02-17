@@ -1,4 +1,5 @@
 
 import React from 'react';
+import { EscenaStyles } from './Escena.styles';
 
-export default (props) => <p>{props.textEscena}</p>
+export default (props) => <EscenaStyles><p>{props.textEscena}</p></EscenaStyles>
