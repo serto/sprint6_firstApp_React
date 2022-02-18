@@ -16,6 +16,11 @@ export const Description = styled.p`
 `;
 
 export const GlobalStyle = createGlobalStyle`
+
+  body {
+    margin: 0;
+  }
+
 	button {
     width: 50%;
     margin-bottom: 24px;
